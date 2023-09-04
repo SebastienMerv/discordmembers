@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #f1f1f1;
+    animation: fade-in 1s ease-in-out;
+    transition: transform 0.3s;
+  }
+  
+  .user:hover {
+    transform: scale(1.05);
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .status {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .bio {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .user-list {
+    animation: fade-in 1s ease-in-out;
+  }
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+    
